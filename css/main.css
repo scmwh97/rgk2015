@@ -184,7 +184,7 @@ Table of contents
 					
 	.logo {
 		position: relative;
-		width: 150px;
+		width: 100px;
 		padding-top: 5px;
 		margin-left: 20px;
 		
@@ -208,7 +208,7 @@ Table of contents
 		.logo {  
 			margin:0 auto; 
 			position:relative; 
-			width:150px; 
+			width:100px; 
 			display: inline-block; 
 			height: 75px; 
 			margin:0px; 
