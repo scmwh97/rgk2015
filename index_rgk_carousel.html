@@ -50,9 +50,9 @@
 	<link rel="stylesheet" type="text/css"  href="font-awesome/css/font-awesome.min.css"> 
     <link rel="stylesheet" type="text/css"  href="css/icons.css"> 
     <link rel="stylesheet" type="text/css"  href="css/animate.css">  
-  	<link rel="stylesheet" type="text/css"  href="css/main.min.css">
-    <link rel="stylesheet" type="text/css"  href="css/style.min.css">    
-	<link rel="stylesheet" type="text/css"  href="css/base.min.css">
+  	<link rel="stylesheet" type="text/css"  href="css/main.css">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">    
+	<link rel="stylesheet" type="text/css"  href="css/base.css">
     <link rel="stylesheet" type="text/css"  href="css/font-style.css" id="set_font" >         
     <link rel="stylesheet" type="text/css"  href="css/color-blue.css" id="set_color">    
     <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css" />
@@ -88,8 +88,8 @@
 <body class="white_ver horizontal_layout index-isotope" data-page="index" >
 
 <div class="preloadimages_inline">
-    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/home_slide_image4.jpg" data-src-small="images/home_slider/home_slide_image4_s.jpg">
-    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/home_slide_image5.jpg" data-src-small="images/home_slider/home_slide_image5_s.jpg">
+    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/web_rgk_rennen02.jpg" data-src-small="images/home_slider/web_rgk_rennen02_s.jpg">
+    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/web_rgk_medaillen.jpg" data-src-small="images/home_slider/web_rgk_medaillen_s.jpg">
     <img alt="image_alt_text" class="preload cssBackground" src="images/0.png" data-src="images/sprite.png" data-src-2x="images/sprite@2x.png">
 </div>
 
@@ -126,9 +126,9 @@ Header Navigation Area
 		<div class="col-md-12">
 		    <div class="header_logo">
                 <!-- Place your logo here -->
-                <div class="logo" >
+                <div class="logo">
                     <a href="#!home" class="menu_link"><img src="images/vollwappen.png" alt="logo RG HANSA"></a>
-                </div>           
+                </div>          
             </div>
             
              <!-- Place Menu Here -->
@@ -136,25 +136,25 @@ Header Navigation Area
 			
 			                                      
                   <a href="#!about">
-                  	<span class="icon">
+                  	<span class="icon" title="Informationen">
                         <i class="icon-basic-info fa-2x"> Info</i>                            
                     </span>
                     </a>
                     
                   <a href="#!services">
-                  	<span class="icon">
+                  	<span class="icon" title="Anmelden">
 						<i class="icon-basic-gear fa-2x"> Anmelden</i>                            
                       </span>
                       </a>
                       
                   <a href="#!contactus">
-                  	<span class="icon">
+                  	<span class="icon" title="Kontakt">
                     	<i class="icon-basic-mail fa-2x"> Kontakt</i>                            
 					</span>
                     </a>
                    
                    <a href="#!home">
-                        <span class="icon">
+                        <span class="icon" title="Start">
                             <i class="icon-basic-home fa-2x"> Start</i>                            
                         </span>
                         </a>                    
@@ -210,10 +210,8 @@ If you need this button just remove the comment code
 						  <h1 class="white_color fontFamily_1">Rudern<br>Gegen Krebs</h1> 
 						  <h2 class="white_color fontFamily_1">11. Juli 2015</h2> 
                           <ul class="font_awesome addFxEmbossBtn listAddBackground"> 
-                            <li ><a class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li ><a class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li ><a class="googleplus"><i class="fa fa-google-plus"></i></a></li>
-                            <li ><a class="linkedin"><i class="fa fa-linkedin"></i></a></li> 
+                            <li ><a href="https://www.facebook.com/RG.Hansa" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li ><a href="https://twitter.com/rghansa" class="twitter"><i class="fa fa-twitter"></i></a></li>                            
                           </ul>                            
                       </div>
                 </div>
@@ -227,9 +225,11 @@ If you need this button just remove the comment code
             <div class="row-fluid">
 				<div class="col-md-12" data-animated-time="20" data-animated-in="animated fadeInUp">
                     <div class=" relativePos pad_large remove_topPadding remove_rightPadding">
-                        <h4 class="white_color">Join us with our mailing list for notify </h4>                           
-                        <!-- New letter form -->
+                        <h4 class="white_color">Unser Newsletter, immer auf dem laufenden bleiben! </h4>                           
+                        <!-- New letter form --> 
+                        <!--
                         <div class="form_fx">
+                            
                             <form name="form_news" method="post" >
                                 <input type="text" value="Enter your email id"  id="joinus_email" name="joinus_email" 
                                 onfocus="if(this.value == 'Enter your email id') {this.value = '';}"	
@@ -237,31 +237,53 @@ If you need this button just remove the comment code
                                 <button type="submit" id="joinus_submit" > <i class="fa fa-plus-circle fa-2x"></i></button> 
                                 <div id="reply_joinus_message" ></div> 
                             </form>
+                                                           
                         </div>
+                        -->
+
+                        
+                        <div class="form_fx">
+                            
+                            <!-- Begin MailChimp Signup Form -->
+                            <div id="mc_embed_signup">
+                                <form action="//rghansa.us9.list-manage.com/subscribe/post?u=4376aae867192e4ae2e05732e&amp;id=05723fcacd" 
+                                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+                                      class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                        <div class="mc-field-group">
+                                            <input type="email" value="Email-Adresse" name="EMAIL" class="required email" id="mce-EMAIL" 
+                                                   onfocus="if(this.value == 'Ihre Email-Adresse') {this.value = '';}"
+                                                   onblur="if (this.value == '') {this.value = 'Ihre Email-Adresse';}" />
+                                        </div>
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>    
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;">
+                                            <input type="text" name="b_4376aae867192e4ae2e05732e_05723fcacd" tabindex="-1" value="">
+                                        </div>
+                                        <div class="clear">
+                                            <button type="submit" name="subscribe" id="joinus_submit" value="Subscribe" >  
+                                                <i class="fa fa-plus-circle fa-2x"></i>
+                                            </button> 
+                                            
+                                        </div>
+                                    </div>
+                             </form>
+                           </div>
+
+                           <!--End mc_embed_signup-->
+                            
+                        </div>
+                        
+                        
+                        
                 	</div>
                 </div>            
             </div> 
                                               
-        </div>
-        
-      
-        
-         <div class="container-fluid"> 
-            <div class="row-fluid"> 
-        		<div class="col-md-12">                
-                    <div class="pad_large remove_topPadding remove_bottomPadding remove_rightPadding">                
-                        <div class="tweet-container"  data-animated-time="25" data-animated-in="animated fadeInUp">
-                            <!--
-                             Tweeter Feed
-                            -->
-                            <div class="tweet_feed_icon light"></div>
-                            <div id="jstwitter" class="slideshow_tweet inverseStyle"> </div>
-                        </div>
-                    </div>                    
-				</div>
-			</div>
-		</div> 
-
+        </div>        
                         
         <hr class="separator_max">
          
@@ -514,7 +536,10 @@ If you need this button just remove the comment code
 						<div class="col-md-4 textAlignCenter" >
 							<h4 class="bold_weight" data-animated-time="3" data-animated-in="animated fadeInUp"> General </h4>
                             <ul class="item_feature no_border fontFamily_3"  data-animated-time="5" data-animated-in="animated fadeInUp" data-animated-innerContent="yes">
-                            	<li>Ruder-Gesellschaft HANSA<br>Sch&ouml;ne Aussicht 39<br>22085 Hamburg</li>                            	
+                            	<li>Ruder-Gesellschaft HANSA<br>Sch&ouml;ne Aussicht 39<br>22085 Hamburg</li>   
+                                <li>Bankverbindung:<br/>
+IBAN: DE 61 20050550 1001323144<br/> 
+BIC: HASPDEHHXXX</li>
                              </ul>                                                          
                           </div>
                           
@@ -530,11 +555,8 @@ If you need this button just remove the comment code
                           <div class="col-md-4 textAlignCenter" >
                             <h4 class="bold_weight" data-animated-time="3" data-animated-in="animated fadeInUp"> Connect  </h4>
                             <ul class="item_feature no_border font_awesome addFxEmbossBtn" data-animated-time="5" data-animated-in="animated fadeInUp" data-animated-innerContent="yes" >
-                                <li ><a class="facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li ><a class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li ><a class="googleplus"><i class="fa fa-google-plus"></i></a></li>
-                                <li ><a class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                <li ><a class="dribbble"><i class="fa  fa-dribbble"></i></a></li>
+                                <li ><a href="https://www.facebook.com/RG.Hansa" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li ><a href="https://twitter.com/rghansa" class="twitter"><i class="fa fa-twitter"></i></a></li>                               
                             </ul>                                     
                           </div>
                           
@@ -619,30 +641,25 @@ If you need this button just remove the comment code
 				
 						slides 	:  	[	// Slideshow Images, image_small attribute is used to load the mobile version image, main_title attribute is used to add the image tile div
 										// For kenburn effect, zoomIn attribute is used, just add yes or no for zoomin and zoomout, To remove the kenburn effect just leave it blank value. 
-										{ 	image 			: 'images/home_slider/home_slide_image1.jpg', 
-											image_small 	: 'images/home_slider/home_slide_image1_s.jpg', 
+										{ 	image 			: 'images/home_slider/web_rgk_fahnen.jpg', 
+											image_small 	: 'images/home_slider/web_rgk_fahnen_s.jpg', 
 											slide_interval	: 3000, 
 											zoomIn			: "yes" },
 											
-										{ 	image 			: 'images/home_slider/home_slide_image2.jpg', 
-											image_small 	: 'images/home_slider/home_slide_image2_s.jpg', 
+										{ 	image 			: 'images/home_slider/web_rgk_steg.jpg', 
+											image_small 	: 'images/home_slider/web_rgk_steg_s.jpg', 
 											slide_interval	: 3000, 
 											zoomIn			: "no" },
 											
-										{ 	image 			: 'images/home_slider/home_slide_image3.jpg', 
-											image_small 	: 'images/home_slider/home_slide_image3_s.jpg', 
+										{ 	image 			: 'images/home_slider/web_rgk_rennen02.jpg', 
+											image_small 	: 'images/home_slider/web_rgk_rennen02_s.jpg', 
 											slide_interval	: 3000, 
 											zoomIn			: "yes" },
 											
-										{ 	image 			: 'images/home_slider/home_slide_image4.jpg', 
-											image_small 	: 'images/home_slider/home_slide_image4_s.jpg',
+										{ 	image 			: 'images/home_slider/web_rgk_medaillen.jpg', 
+											image_small 	: 'images/home_slider/web_rgk_medaillen_s.jpg',
 											slide_interval	: 3000, 
-											zoomIn			: "no" },
-											 
-										{ 	image 			: 'images/home_slider/home_slide_image5.jpg', 
-											image_small 	: 'images/home_slider/home_slide_image5_s.jpg', 
-											slide_interval	: 3000, 
-											zoomIn			: "yes" }
+											zoomIn			: "no" }
 									]
 					});
 				});	

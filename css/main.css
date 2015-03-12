@@ -52,7 +52,7 @@ Table of contents
 		overflow-x: hidden;
 		background-color: #ffffff;
 		color: #222222;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 500;
 		}
 		
@@ -184,7 +184,7 @@ Table of contents
 					
 	.logo {
 		position: relative;
-		width: 120px;
+		width: 150px;
 		padding-top: 5px;
 		margin-left: 20px;
 		
@@ -208,7 +208,7 @@ Table of contents
 		.logo {  
 			margin:0 auto; 
 			position:relative; 
-			width:100px; 
+			width:150px; 
 			display: inline-block; 
 			height: 75px; 
 			margin:0px; 
