@@ -670,7 +670,7 @@ input[type="button"]:active{
 /* #Join us email */
 	.form_fx input{
 		background-color:#ffffff;
-		background-color: rgba(255, 255, 255, .2) !important;
+		background-color: rgba(255, 255, 255, .52) !important;
 		}
 		
 	.form_fx button{ background:none !important; }

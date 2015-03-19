@@ -1793,7 +1793,7 @@ Table of contents
 		filter: alpha(opacity=75);
 		-moz-opacity: .75;
 		-khtml-opacity: .75;
-		opacity : .75;
+		opacity : .3;
 		}
 	.overlayBg.forHomepage{ position:fixed; height:100%; }
 	.remove_transparent{
